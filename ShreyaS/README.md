@@ -1,5 +1,5 @@
 ## TWEET SENTIMENT EXTRACTION
-'''Motive: Pick out the part of the tweet (word or phrase) that reflects the sentiment.
+Motive: Pick out the part of the tweet (word or phrase) that reflects the sentiment.
 
 ## Dataset Analysis:
 1. Evaluation based on Jaccard score: A measure of how similar/dissimilar two sets are. The higher the score, the more similar the two strings. Almost 97 % Jaccard Similarity in train data "text" and "selected text". So, we can use neutral text as it is in the selected text.
