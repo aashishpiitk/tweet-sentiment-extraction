@@ -9,7 +9,6 @@ https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/138520
 4. URL are part of selected text (Neutral text)
 
 ## Approaches that I find useful for solving this problem:
-```
 1. NER Approach
 https://www.kaggle.com/tanulsingh077/twitter-sentiment-extaction-analysis-eda-and-model
 https://www.kaggle.com/rohitsingh9990/ner-training-using-spacy-ensemble/comments
