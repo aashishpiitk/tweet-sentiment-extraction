@@ -17,7 +17,7 @@ https://www.kaggle.com/jonathanbesomi/question-answering-starter-pack
 https://www.kaggle.com/al0kharba/tensorflow-roberta-0-712
 https://www.kaggle.com/cdeotte/tensorflow-roberta-0-705
 
-## While going through these notebooks, I decided to go through first some of the concepts in NLP:
+While going through these notebooks, I decided to go through first some of the concepts in NLP:
 ## Representation of word vector (Word2vec): CBOW, Skip Gram with Negative sampling, Glove:
 Problem with One Hot encoding:
 * Large Dimensionality
@@ -38,7 +38,7 @@ With the knowledge of deep learning, I learned  about sequence models.
 Sequence-to-Sequence (or Seq2Seq) is a neural net that transforms a given sequence of elements, such as the sequence of words in a sentence, into another sequence. For this, I studied
 
 
-#RNNs: 
+## RNNs: 
 Current output not only depends upon the current input but also on the previous inputs thereby preserving some relationships. Single neuron have the same weights and biases.
 During Backpropagation, the problem of vanishing gradients still persists bcoz of multiplications in chain rule when trying to learn long term dependencies. If a sequence is long enough, they’ll have a hard time carrying information from earlier time steps to later ones.
 For instance if we have a sentence like “The man who ate my pizza has purple hair”. In this case, the description of purple hair is for the man and not the pizza. So this is a long dependency.
